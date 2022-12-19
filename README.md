@@ -37,6 +37,9 @@ A user can enter text inside a Flask web app and get his message classified into
 
 ## Results
 The code and the results can be used on the following web app:  `http://0.0.0.0:3001/`
+Web App visualisation:
+![WebApp](https://user-images.githubusercontent.com/95216325/208512883-cc996c62-52a1-4f1e-bccb-7662a483d9a3.PNG)
+
 
 ## Licensing, Authors, Acknowledgements
 In this project the disaster data from Appen (formally Figure 8) is used. For more information about the Licensing of the data or descroptive information visit the following homepage: https://appen.com/. Otherwise, feel free to use the code here as you would like!
