@@ -8,6 +8,9 @@ There should be the following libraries installed to run the code here beyond th
 - pickle
 - sklearn.model_selection
 - nltk
+- json
+- plotly
+- flask
 
 The code should run with no issues using Python versions 3.*.
 
