@@ -10,9 +10,9 @@ A user can enter text inside a Flask web app and get his message classified into
 
 ## Getting started
 
-1. Run ETL pipeline to load, clean, and store the data in a sqlite database
+1. Run ETL pipeline that cleans data and stores in database
 	`python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-2. Run ML pipeline to train the classifier and save the model in a pickle file
+2. Run ML pipeline that trains classifier and saves the model as a pickle file
 	`python model/train_classifier.py data/DisasterResponse.db model/classifier.pkl`
 3. Run the following command in the app's directory to run the web app
 	`python run.py`
@@ -23,3 +23,5 @@ A user can enter text inside a Flask web app and get his message classified into
 * `data/`: Holds the final ETL pipeline `process_data.py` and the development notebook. Also holds the database and the .csv files
 * `model/`: Holds the final ML pipeline `train_classifier.py` and the development notebook. The pickled model is also stored here.
 * `app/`: Flask web app `run.py` with templates
+
+# Disaster Response Pipeline Project
