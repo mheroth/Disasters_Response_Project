@@ -23,5 +23,3 @@ A user can enter text inside a Flask web app and get his message classified into
 * `data/`: Holds the final ETL pipeline `process_data.py` and the development notebook. Also holds the database and the .csv files
 * `model/`: Holds the final ML pipeline `train_classifier.py` and the development notebook. The pickled model is also stored here.
 * `app/`: Flask web app `run.py` with templates
-
-# Disaster Response Pipeline Project
