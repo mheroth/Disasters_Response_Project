@@ -1,10 +1,10 @@
-# disaster-nlp
+# Disaster Response Project
 
-Short text message classification
+Short text message classification algorithm
 
 ## Summary
 
-In this project we use labeled text data provided by Figure Eight for the Udacity Data Science Nano Degree to train a machine learning model and perform a multioutput classification in a web app. The model is build by using a sklearn pipeline with the custom estimator object StartingVerbExtractor. Gridsearch is then used to tune the model parameters.
+In this project we use labeled text data provided by Figure Eight to train a machine learning model and perform a multioutput classification in a web app. The model is build by using a sklearn pipeline including a random forest classifier. Gridsearch is then used to tune the model parameters.
 
 A user can enter text inside a Flask web app and get his message classified into multiple categories.
 
