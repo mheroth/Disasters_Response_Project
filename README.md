@@ -1,8 +1,19 @@
 # Disaster Response Project
 
+## Installation
+There should be the following libraries installed to run the code here beyond the Anaconda distribution of Python: 
+- sys
+- pandas
+- sqlalchemy
+- pickle
+- sklearn.model_selection
+- nltk
+
+The code should run with no issues using Python versions 3.*.
+
 Short text message classification algorithm
 
-## Summary
+## Project Motivation
 
 In this project we use labeled text data provided by Figure Eight to train a machine learning model and perform a multioutput classification in a web app. The model is build by using a sklearn pipeline including a random forest classifier. Gridsearch is then used to tune the model parameters.
 
@@ -18,8 +29,15 @@ A user can enter text inside a Flask web app and get his message classified into
 	`python run.py`
 4. Visit `http://0.0.0.0:3001/` to access the web app
 
-## Repository
+## File Description
 
 * `data/`: Holds the final ETL pipeline `process_data.py` and the development notebook. Also holds the database and the .csv files
 * `model/`: Holds the final ML pipeline `train_classifier.py` and the development notebook. The pickled model is also stored here.
 * `app/`: Flask web app `run.py` with templates
+
+## Results
+The code and the results can be used on the following web app:  `http://0.0.0.0:3001/`
+
+## Licensing, Authors, Acknowledgements
+In this project the disaster data from Appen (formally Figure 8) is used. For more information about the Licensing of the data or descroptive information visit the following homepage: https://appen.com/. Otherwise, feel free to use the code here as you would like!
+
