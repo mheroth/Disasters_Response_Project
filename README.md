@@ -38,6 +38,22 @@ A user can enter text inside a Flask web app and get his message classified into
 * `model/`: Holds the final ML pipeline `train_classifier.py` and the development notebook. The pickled model is also stored here.
 * `app/`: Flask web app `run.py` with templates
 
+Structure of the project:
+app
+| - template
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- run.py # Flask file that runs app
+data
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py
+|- InsertDatabaseName.db # database to save clean data to
+models
+|- train_classifier.py
+|- classifier.pkl # saved model
+README.md
+
 ## Results
 The code and the results can be used on the following web app:  `http://0.0.0.0:3001/`
 Web App visualisation:
