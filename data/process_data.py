@@ -31,6 +31,8 @@ def load_data(messages_filepath, categories_filepath):
         categories[column] = categories[column].astype(str).str[-1:]
         # convert column from string to numeric
         categories[column] = pd.to_numeric(categories[column])
+    # convert replace column to binary
+    categories.drop(categories[categories['related']==2].index,inplace=True)
     # drop old categories column
     df.drop('categories', axis=1, inplace=True)
     # concat df with new categories
