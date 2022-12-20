@@ -18,7 +18,7 @@ Short text message classification algorithm
 
 ## Project Motivation
 
-In this project we use labeled text data provided by Figure Eight to train a machine learning model and perform a multioutput classification in a web app. The model is build by using a sklearn pipeline including a random forest classifier. Gridsearch is then used to tune the model parameters.
+In this project we use labeled text data provided by Figure Eight to train a machine learning model and perform a multioutput classification in a web app. The model is build by using a sklearn pipeline including a random forest classifier. Gridsearch is then used to tune the model parameters. This application will help people and organizations all over the world since they can classify disaster messages in their disaster class. So it is possible to directly know which disaster did very likely happen when a message comes in.
 
 A user can enter text inside a Flask web app and get his message classified into multiple categories.
 
