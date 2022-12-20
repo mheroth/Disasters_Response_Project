@@ -32,8 +32,6 @@ def load_data(database_filepath):
     engine = create_engine('sqlite:///' + database_filepath)
     # read the sql table and save it in a pandas dataframe
     df = pd.read_sql_table('InsertTableName', 'sqlite:///' + database_filepath)
-    # convert 'related' value of 2  to binary 1
-    df.related.replace(2,1,inplace=True)
     # extract input text for later training
     X = df.message.values
     # extract corresponding categories
